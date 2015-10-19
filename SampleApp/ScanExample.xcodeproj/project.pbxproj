@@ -24,6 +24,8 @@
 		0A96B649156447DB00DBA017 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A96B648156447DB00DBA017 /* Security.framework */; };
 		2680866116FFAC7A0058FD24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2680866016FFAC7A0058FD24 /* Default-568h@2x.png */; };
 		2680867016FFB2A00058FD24 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2680866F16FFB2A00058FD24 /* OpenGLES.framework */; };
+		357AA6F31BD4AD4600A3F1D8 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357AA6F11BD4AD4600A3F1D8 /* libopencv_core.a */; settings = {ASSET_TAGS = (); }; };
+		357AA6F41BD4AD4600A3F1D8 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357AA6F21BD4AD4600A3F1D8 /* libopencv_imgproc.a */; settings = {ASSET_TAGS = (); }; };
 		3EB7592518341EE80008860A /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB7592318341EB80008860A /* libCardIO.a */; };
 		3ED76B6417ECF9F50014F059 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED76B6317ECF9F50014F059 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +53,8 @@
 		0A96B648156447DB00DBA017 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2680866016FFAC7A0058FD24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		2680866F16FFB2A00058FD24 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		357AA6F11BD4AD4600A3F1D8 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		357AA6F21BD4AD4600A3F1D8 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
 		3EB7591D18341EB80008860A /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
 		3EB7591E18341EB80008860A /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
 		3EB7591F18341EB80008860A /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
@@ -68,9 +72,11 @@
 			files = (
 				3EB7592518341EE80008860A /* libCardIO.a in Frameworks */,
 				0A96B63D156447AC00DBA017 /* AudioToolbox.framework in Frameworks */,
+				357AA6F31BD4AD4600A3F1D8 /* libopencv_core.a in Frameworks */,
 				0A96B63B156447A300DBA017 /* AVFoundation.framework in Frameworks */,
 				3ED76B6417ECF9F50014F059 /* CoreGraphics.framework in Frameworks */,
 				0A96B63F156447B400DBA017 /* CoreMedia.framework in Frameworks */,
+				357AA6F41BD4AD4600A3F1D8 /* libopencv_imgproc.a in Frameworks */,
 				0A96B641156447BC00DBA017 /* CoreVideo.framework in Frameworks */,
 				0A2C903A1564175A000727BC /* Foundation.framework in Frameworks */,
 				0A96B645156447CD00DBA017 /* MobileCoreServices.framework in Frameworks */,
@@ -149,6 +155,8 @@
 		3EB7591C18341EB80008860A /* CardIO */ = {
 			isa = PBXGroup;
 			children = (
+				357AA6F11BD4AD4600A3F1D8 /* libopencv_core.a */,
+				357AA6F21BD4AD4600A3F1D8 /* libopencv_imgproc.a */,
 				3EB7591D18341EB80008860A /* CardIO.h */,
 				3EB7591E18341EB80008860A /* CardIOCreditCardInfo.h */,
 				3EB7591F18341EB80008860A /* CardIOPaymentViewController.h */,
